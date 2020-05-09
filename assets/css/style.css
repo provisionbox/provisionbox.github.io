@@ -1,0 +1,11 @@
+@media (min-width: 992px) {
+  #bottom-logo {
+    background-image: url("../../assets/img/PB_logo_white.svg");
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgba(255,255,255,0);
+  }
+}
+
