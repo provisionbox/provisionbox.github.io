@@ -40,7 +40,7 @@
         <div class="text-center" style="padding-bottom: 25px;"><img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/contact-bg.png"></div>
         <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto">
-                <p style="color: rgb(218,218,218);padding-bottom: 5px;">Vous voulez nous contacter ? Remplissez le formulaire et nous vous recontacterons au plus vite !</p>
+                <p style="color: rgb(218,218,218);padding-bottom: 5px;">Pour participer à l'une de nos présentations, veuillez remplir le formulaire et choisir un créneau horaire et nous vous recontacterons au plus vite.</p>
                 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/provisionbox2020@yahoo.com" method="post">
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls"><label style="color: rgb(218,218,218);">Nom</label><input class="form-control" type="text" id="full-name" name="name" placeholder="Nom" required=""><small class="form-text text-danger help-block"></small></div>
@@ -50,6 +50,23 @@
                     </div>
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls"><label style="color: rgb(218,218,218);">Téléphone - WhatsApp</label><input class="form-control" type="tel" id="phone" required="" placeholder="Téléphone" name="phone"><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls"><label style="color: rgb(218,218,218);">Nom d'utilisateur Skype</label><input class="form-control" type="skype" id="skype" placeholder="Nom d'utilisateur Skype" name="skype"><small class="form-text text-danger help-block"></small></div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls"><label style="color: rgb(218,218,218);">Créneau Horaire</label>
+                            <div>
+                                <select name="crenau" id="crenau" required="">
+                                    <option>Sélecter</option>
+                                    <option value="Mardi 19:00">Mardi 19:00</option>
+                                    <option value="Mercredi 17:30">Mercredi 17:30</option>
+                                    <option value="Vendredi 18:00">Mercredi 17:30</option>
+                                    <option value="Samedi 10:00">Mercredi 17:30</option>
+                                </select>
+                            </div>
+                            <small class="form-text text-danger help-block"></small>
+                        </div>
                     </div>
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls"><label style="color: rgb(218,218,218);">Code&nbsp;Manager</label><input class="form-control" type="text" id="manager" placeholder="Code Manager" required="" name="manager-code"><small class="form-text text-danger help-block"></small></div>
